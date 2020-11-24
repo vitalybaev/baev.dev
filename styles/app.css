@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply dark:bg-gray-800 dark:text-gray-300;
+}
+
+a {
+  @apply text-pink-900 dark:text-pink-400 underline;
+}
+
+a:hover {
+  @apply text-pink-900 dark:text-pink-200 underline;
+}
