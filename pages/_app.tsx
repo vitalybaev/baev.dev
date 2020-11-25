@@ -6,6 +6,7 @@ const App: AppType = ({ Component, pageProps }) => {
   return (
     <>
       <Head>
+        <title>Виталий Баев - Front-end Разработчик</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <div className="w-screen h-screen p-4 flex justify-content-center items-center">
