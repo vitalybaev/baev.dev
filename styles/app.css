@@ -4,6 +4,17 @@
 
 html {
   @apply dark:bg-gray-800 dark:text-gray-300;
+  height: -webkit-fill-available;
+}
+
+body {
+  @apply h-screen;
+  min-height: -webkit-fill-available;
+}
+
+.full-height {
+  @apply h-screen;
+  min-height: -webkit-fill-available;
 }
 
 a {
